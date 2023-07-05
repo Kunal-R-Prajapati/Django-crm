@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME' : 'artek',
         'USER' : 'root',
-        'PASSWORD' : 'Wscf*2675',
+        'PASSWORD' : 'xxxxxxxxx', # Enter Your mysql password here
         'HOST' : 'localhost',
         'PORT' : '3306'
     }
