@@ -1,6 +1,8 @@
 from django.db import models
 
 # Create your models here.
+# This the tabel in our database
+
 class Record(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     first_name = models.CharField(max_length=50)
@@ -12,5 +14,6 @@ class Record(models.Model):
     state = models.CharField(max_length=50)
     zipcode = models.CharField(max_length=20)
 
+    # This function is used to view the table in short 
     def __str__(self) :
         return (f"{self.first_name} {self.last_name}")
